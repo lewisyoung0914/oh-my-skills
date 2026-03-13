@@ -1,0 +1,120 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8d82416a0a270b41ce33ddd8ea730332413b89a6fc08b5b76692f6a257853fd4
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8145b24be61e0cc20f33721f60d9e06fa122566b87f5f53c2cc4979d8c2be140
+Status: install ok installed
+
+Package: catch2
+Version: 3.13.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 75206b9aef09165622c48e9f88da1655508a269037140690cdafd22c09e7d19e
+Description: A modern, C++-native, test framework for unit-tests, TDD and BDD.
+Status: install ok installed
+
+Package: cli11
+Version: 2.6.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e419799fd7b62c939aa927c809cbb2bb2bffe15311f2f623ca2f04efcca9e31e
+Description: CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface.
+Status: install ok installed
+
+Package: brotli
+Version: 1.2.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 60458dead290dac073cc98b8bf949c3d0ab6c4b87f946e1830657896f5399bb4
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: cpp-httplib
+Version: 0.37.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 86478dbd5e7d0b57b473e106bc7d00a8c8d88c18f1513f045ef0003b649e97f8
+Description: A single file C++11 header-only HTTP/HTTPS server and client library
+Default-Features: brotli
+Status: install ok installed
+
+Package: cpp-httplib
+Feature: brotli
+Depends: brotli
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enables brotli compression support using brotli
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f222929bc9f19dac3b1e817547310a25e4cad2bfbcc1ad89be5a432d14bef71e
+Description: A compression library
+Status: install ok installed
+
+Package: curl
+Version: 8.18.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8edd5c1c49aa6211b7ca68c9b199878cf96862465b53fbd2d85e05e0a1dc2c55
+Description: A library for transferring data with URLs
+Default-Features: non-http, ssl
+Status: install ok installed
+
+Package: curl
+Feature: non-http
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enables protocols beyond HTTP/HTTPS/HTTP2/HTTP3
+Status: install ok installed
+
+Package: curl
+Feature: ssl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Default SSL / TLS implementation.
+Status: install ok installed
+
+Package: curl
+Feature: sspi
+Architecture: x64-windows
+Multi-Arch: same
+Description: SSPI support
+Status: install ok installed
+
+Package: nlohmann-json
+Version: 3.12.0
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5d36d9dccb8712cb1cc5e3f92a40e7820057a965db697e3685e852f2842b53fa
+Description: JSON for Modern C++
+Status: install ok installed
+
+Package: yaml-cpp
+Version: 0.9.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 891f27854054d9433f8f555f0d70641c3994179a819ec8f07ae04a2337581e9e
+Description: yaml-cpp is a YAML parser and emitter in C++ matching the YAML 1.2 spec.
+Status: install ok installed
+

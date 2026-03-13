@@ -1,0 +1,11 @@
+E:\project\oh-my-skills\src\cli\runtime.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\runtime.obj
+E:\project\oh-my-skills\src\config\config.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\config.obj
+E:\project\oh-my-skills\src\coord\coord.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\coord.obj
+E:\project\oh-my-skills\src\frontmatter\frontmatter.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\frontmatter.obj
+E:\project\oh-my-skills\src\security\token_store.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\token_store.obj
+E:\project\oh-my-skills\src\api\api_client.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\api_client.obj
+E:\project\oh-my-skills\src\error\error.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\error.obj
+E:\project\oh-my-skills\src\output\output.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\output.obj
+E:\project\oh-my-skills\src\util\fs.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\fs.obj
+E:\project\oh-my-skills\src\util\http.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\http.obj
+E:\project\oh-my-skills\src\util\strings.cpp;E:\project\oh-my-skills\build\skillctl_core.dir\Release\strings.obj

@@ -1,0 +1,13 @@
+{
+  "name": "skillctl",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "cli11",
+    "curl",
+    "nlohmann-json",
+    "yaml-cpp",
+    "catch2",
+    "cpp-httplib"
+  ]
+}
+

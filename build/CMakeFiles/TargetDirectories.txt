@@ -1,6 +1,0 @@
-E:/project/oh-my-skills/build/CMakeFiles/skillctl_core.dir
-E:/project/oh-my-skills/build/CMakeFiles/skillctl.dir
-E:/project/oh-my-skills/build/CMakeFiles/skillctl_tests.dir
-E:/project/oh-my-skills/build/CMakeFiles/RUN_TESTS.dir
-E:/project/oh-my-skills/build/CMakeFiles/ALL_BUILD.dir
-E:/project/oh-my-skills/build/CMakeFiles/ZERO_CHECK.dir
